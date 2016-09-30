@@ -27,8 +27,5 @@ github_username:  Jacob-Ernst
 gems:
   - jekyll-github-metadata
 
-# Build settings
-markdown: redcarpet
-
 include:
 - _javascripts
