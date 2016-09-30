@@ -22,31 +22,13 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Jacob-Ernst
 
 gems:
-  - jekyll-assets
+  - jekyll-github-metadata
 
 # Build settings
 markdown: redcarpet
-theme: minima
 
-# For config see https://github.com/jekyll/jekyll-assets
-assets:
-  assets:
-    - "*.png"
-    - "*.svg"
-    - "*.jpg"
-    - "*.gif"
-  compress:
-    css: sass
-    js: uglifier
-  digest: true
-  sources:
-    - _assets/css
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
-    - _assets/img
-    - _assets/js
+include:
+- _javascripts

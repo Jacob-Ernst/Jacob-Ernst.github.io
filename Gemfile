@@ -9,22 +9,17 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.2.1"
-gem 'jekyll-assets', '~> 2.2.8'
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
+# gem "jekyll", "3.2.1"
 
 gem 'sass', '~> 3.4.22'
 gem 'uglifier', '~>3.0.2'
 gem 'redcarpet', '~> 3.3.4'
-gem 'bootstrap-sass', '~> 3.3.7'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-# group :jekyll_plugins do
-#   gem "jekyll-github-metadata", "~> 1.0"
-# end
+group :jekyll_plugins do
+  gem "jekyll-github-metadata", "~> 2.0.2"
+end
