@@ -29,3 +29,5 @@ gems:
 
 include:
 - _javascripts
+
+permalink: /blog/:title/
